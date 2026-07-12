@@ -41,13 +41,19 @@ The embedding notebook automatically uses a CUDA GPU when available and otherwis
 
 ## Dataset
 
-The experiments start from:
+The full processed dataset is available through an anonymous Zenodo review link:
+
+[Download the full dataset][https://zenodo.org/records/21328518?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc4Mzg5OTY4OCwiZXhwIjoxNzkwODEyNzk5fQ.eyJpZCI6IjI1Mzc1YTc4LTVkNjUtNDQ5NS1hYjA2LTY2MzhjNjc2ZTNkZSIsImRhdGEiOnt9LCJyYW5kb20iOiI5YWE1ZjEyMzQ5YzY1Njk0NDJmNGVjMTA0OTFkMmNmOCJ9.NIPZwjRygmji56cLbbWa2tk6lVg7xrlEP3rlerH4g6VBH4Vq3Unj2mjqGrXhRcjxs-Am4fzgdb5kW1MCGgsLfQ]
+
+The downloaded file is:
 
 ```text
-data/PMCOA_samples_01234_overlap_clean_split_headers.tsv
+PMCOA_samples_01234_overlap_clean_split_headers.zip
 ```
 
-The file already contains the final article-level train, validation, and test assignments used in the experiments.
+Place it in the `data/` directory and extract the zip file.
+
+The file contains the final article-level train, validation, and test assignments used in the experiments.
 
 `data/data_summary.ipynb` provides optional dataset validation and descriptive summaries. Earlier exploratory cleanup scripts are not included.
 
