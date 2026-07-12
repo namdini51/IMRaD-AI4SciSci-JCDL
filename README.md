@@ -43,7 +43,7 @@ The embedding notebook automatically uses a CUDA GPU when available and otherwis
 
 The full processed dataset is available through an anonymous Zenodo review link:
 
-[Download the full dataset][https://zenodo.org/records/21328518?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc4Mzg5OTY4OCwiZXhwIjoxNzkwODEyNzk5fQ.eyJpZCI6IjI1Mzc1YTc4LTVkNjUtNDQ5NS1hYjA2LTY2MzhjNjc2ZTNkZSIsImRhdGEiOnt9LCJyYW5kb20iOiI5YWE1ZjEyMzQ5YzY1Njk0NDJmNGVjMTA0OTFkMmNmOCJ9.NIPZwjRygmji56cLbbWa2tk6lVg7xrlEP3rlerH4g6VBH4Vq3Unj2mjqGrXhRcjxs-Am4fzgdb5kW1MCGgsLfQ]
+[Download the full dataset][dataset-link]
 
 The downloaded file is:
 
@@ -168,3 +168,5 @@ The global decoder saves section-level metrics, article-level layout metrics, se
 - Validation runs must be completed before the corresponding test decoder runs.
 - Generated embedding caches are stored under `cache/`.
 - Small numerical differences may occur across hardware or software versions.
+
+[dataset-link]: https://zenodo.org/records/21328518?preview=1&token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc4Mzg5OTY4OCwiZXhwIjoxNzkwODEyNzk5fQ.eyJpZCI6IjI1Mzc1YTc4LTVkNjUtNDQ5NS1hYjA2LTY2MzhjNjc2ZTNkZSIsImRhdGEiOnt9LCJyYW5kb20iOiI5YWE1ZjEyMzQ5YzY1Njk0NDJmNGVjMTA0OTFkMmNmOCJ9.NIPZwjRygmji56cLbbWa2tk6lVg7xrlEP3rlerH4g6VBH4Vq3Unj2mjqGrXhRcjxs-Am4fzgdb5kW1MCGgsLfQ
