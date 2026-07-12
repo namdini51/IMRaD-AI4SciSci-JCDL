@@ -35,6 +35,8 @@ jupyter lab
 
 Run Jupyter from the repository root so that all relative paths resolve correctly.
 
+Tested with Python 3.12.13. The exact package versions are listed in `requirements.txt`.
+
 The embedding notebook automatically uses a CUDA GPU when available and otherwise falls back to CPU.
 
 ## Dataset
