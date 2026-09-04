@@ -1,4 +1,4 @@
-# IMRaD Project (JCDL 2026)
+# IMRaD Project (AI4SciSci 2026@JCDL)
 
 This repository contains the code and final dataset used to reproduce the section-level IMRaD classification and article-level layout reconstruction experiments.
 
